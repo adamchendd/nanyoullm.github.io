@@ -24,7 +24,7 @@ titanic竞赛是一个分类问题，参赛同学通过对训练集中每位乘�
 以上两种方法均使用了pyTorch库。这里提一下pyTorch，个人认为相对Tensorflow，pyTorch更加轻量级，python接口友好，适合深度学习应用的快速实现。
 文档齐全，适合入门的同学[pyTorch](http://pytorch.org/)。
 [MNIST-CNN](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/MNIST%20Recognize.ipynb)  
-[MNIST-RNN]()
+[MNIST-RNN](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/MNIST-RNN.ipynb)
 
 ## Spark
 对Spark的应用主要是在公司的大大小小的项目中，因此这部分可能没太多的代码展示，
