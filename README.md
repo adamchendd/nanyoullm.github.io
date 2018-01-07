@@ -91,7 +91,7 @@ Apache Spark作为近年来最流行的大数据开源项目，可以说是占�
 scala环境搭建参考：http://blog.csdn.net/he582754810/article/details/53837142  
 jupyter spark kernel搭建参考：http://blog.csdn.net/u012948976/article/details/52372644
 ### 数据加工：RDD基本操作
-> part1: 单词统计  
+> part1: [单词统计](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/spark%E5%8D%95%E8%AF%8D%E7%BB%9F%E8%AE%A1.ipynb)  
 part2: 用户通话记录多维度统计
 ### MLlib
 > 待续
@@ -113,6 +113,7 @@ part2: 用户通话记录多维度统计
 ## Python Web
 ### Flask
 > 待补充
+
 ### 模型稳定性监控
 > 待补充
 
