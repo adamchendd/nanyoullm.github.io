@@ -33,6 +33,7 @@ titanic竞赛是一个分类问题，参赛同学通过对训练集中每位乘�
 分类时，对新的实例，根据其k个最近邻的训练实例的类别，通过多数表决等方式进行预测。
 因此，k近邻法不具有显式的学习过程。  
 k近邻实际上利用训练数据集对特征向量空间进行划分，并作为其分类的模型。
+### 无约束优化问题
 
 ## 深度学习
 > 深度学习是一门相当系统和完整的知识体系，涉及到的知识点非常多，在这里博主主要分享一些做过的应用，和一些容易忽略的细节点。使用到的库主要为pyTorch。
@@ -75,12 +76,23 @@ PyTorch 由 Adam Paszke、Sam Gross 与 Soumith Chintala 等人牵头开发，�
 > 待续
 
 ## Spark
-> 对Spark的应用主要是在公司的大小的项目中，因此这部分可能没太多的代码展示，
-目前博主接触过的最大数据量的项目为联通集团的数据挖掘项目。
-### 初识Spark
-> xxx
+> 我们身处于大数据的一个起步时代，作为一个码农，掌握大数据计算平台的使用还是必须的。
+Apache Spark作为近年来最流行的大数据开源项目，可以说是占据了大小互联网的生产环境，
+是一个“快如闪电的集群计算”工具。  
+关于Spark的介绍我也不多说啦，可以看看官网[Spark](https://spark.apache.org/)。
+这里需要说明的是，博主并没有阅读过Spark的源码，对Spark较多的是停留在应用层面，
+博客的内容很多是给自己回顾所涉及的点，不是很完善。
+所述之处如有错误，还请及时指出。
+对Spark的应用主要是在公司的大小日常项目中，目前博主接触过的最大数据量的项目为联通集团的数据挖掘项目。
+### Spark基础回顾
+> [Spark基础回顾](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/spark%E4%B9%8B%E5%9F%BA%E7%A1%80.ipynb)
+### Spark & jupyter & Scala 环境搭建
+> 为了方面展示，搭建了spark & jupyter环境，使用的scala语言内核。  
+scala环境搭建参考：http://blog.csdn.net/he582754810/article/details/53837142  
+jupyter spark kernel搭建参考：http://blog.csdn.net/u012948976/article/details/52372644
 ### 数据加工：RDD基本操作
-> 待续
+> part1: 单词统计  
+part2: 用户通话记录多维度统计
 ### MLlib
 > 待续
 ### GraphX
@@ -92,12 +104,21 @@ PyTorch 由 Adam Paszke、Sam Gross 与 Soumith Chintala 等人牵头开发，�
 流程上有很多与机器学习实际问题相同的地方，但是它又具有其特别之处，如具有时间周期性，特征业务可解释性的需求等...
 让我们来认识一下吧！  
 [评分卡的开发过程](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/%E4%BF%A1%E7%94%A8%E9%A3%8E%E9%99%A9%E8%AF%84%E5%88%86%E5%8D%A1%E7%A0%94%E7%A9%B6/%E8%AF%84%E5%88%86%E5%8D%A1%E7%9A%84%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B.ipynb)
+
 ## 数据可视化
 > seaborn
 ### 热力地图展示
 > 待续，seaborn, Echarts
 
+## Python Web
+### Flask
+> 待补充
+### 模型稳定性监控
+> 待补充
+
 ## Others...
 ### 量化平台之初体验
-> 待续
-### Vue.js学习
+> ricequant平台使用
+
+### 云养猫...
+> 会有猫的
