@@ -1,4 +1,4 @@
-# lim力铭的博客
+# lim力铭的简易博客
 
 > 爱数据，爱生活，云吸猫患者，坐标深圳。  
 热爱数据科学，机器学习，和深度学习应用。
@@ -21,6 +21,9 @@ titanic竞赛是一个分类问题，参赛同学通过对训练集中每位乘�
 > 这里主要是自己在之前在学习machine learning过程中做的一些笔记和总结，以方便自己反刍。
 总结里部分是在学习李航老师的《统计学习方法》中做的笔记，所以有不少对应内容是摘自书中，在此说明。
 另有部分是从其他学习途径总结的。
+### 机器学习数学基石
+之前参加了《机器学习数学基石课程》，这里回顾一下机器学习优化问题的知识点。  
+[优化问题](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98.ipynb)
 ### 统计学习方法概论
 > 这里主要叙述统计学习方法的一些基本概念。  
 [概论](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA.ipynb)
@@ -80,8 +83,6 @@ PyTorch 由 Adam Paszke、Sam Gross 与 Soumith Chintala 等人牵头开发，�
 [MNIST-RNN](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/MNIST-RNN.ipynb)
 ### Transfer Learning站在巨人的肩膀上
 > 待续
-### 聊天机器人
-> 待续
 ### neural style
 > 待续
 ### pyTorch & tensorborad
@@ -110,24 +111,11 @@ part2: 用户通话记录多维度统计
 ### GraphX
 > 待续
 
-## 信用风险评分套路
-### 评分卡的开发过程
-> 这里介绍一下评分卡的开发的常规操作。它实际上是一个数据科学的课题，
-流程上有很多与机器学习实际问题相同的地方，但是它又具有其特别之处，如具有时间周期性，特征业务可解释性的需求等...
-让我们来认识一下吧！  
-[评分卡的开发过程](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/%E4%BF%A1%E7%94%A8%E9%A3%8E%E9%99%A9%E8%AF%84%E5%88%86%E5%8D%A1%E7%A0%94%E7%A9%B6/%E8%AF%84%E5%88%86%E5%8D%A1%E7%9A%84%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B.ipynb)
-
-## 数据可视化
-> seaborn
-### 热力地图展示
-> 待续，seaborn, Echarts
-
 ## Python Web
 ### Flask
 > Flask 是一个 Python 实现的 Web 开发微框架。对于初次接触 web 应用开发的同学来说，
 是很容易上手的。我是从官网的简单例子入手的，话不多说来看一看。  
 [flask 之 hello world](http://docs.jinkan.org/docs/flask/quickstart.html#a-minimal-application)
-
 ### 模型稳定性监控
 > 一个模型上线后，在实际生产中需要监控这个模型的稳定性的，一旦模型的
 产出出现异常，一点点的偏差就会带来极大的风险损失。  
@@ -137,8 +125,19 @@ part2: 用户通话记录多维度统计
 在一定周期内是否可以保持稳定？PSI是多少？
 申请了金融产品的客户的分数是否满足排序性？整体KS是多少？等等...  
 这里我写了一个简单 web 应用，用于监控模型分布的稳定性，方便我们做相关的数据分析。  
-使用的工具是： Flask + Ajax + Echarts  
-详细内容及代码请跳转: [简易模型监控](https://github.com/nanyoullm/simple-model-monitor)
+项目包含完整的前后端代码。详细内容及代码请跳转: [简易模型监控](https://github.com/nanyoullm/simple-model-monitor)
+
+## 数据可视化
+### seaborn
+> seaborn是一个python可视化的工具，是基于 matplotlib ，能与 dataframe 数据结构有更好切合的工具。
+[seaborn使用](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/seaborn_visualization.ipynb)
+
+## 信用风险评分套路
+### 评分卡的开发过程
+> 这里介绍一下评分卡的开发的常规操作。它实际上是一个数据科学的课题，
+流程上有很多与机器学习实际问题相同的地方，但是它又具有其特别之处，如具有时间周期性，特征业务可解释性的需求等...
+让我们来认识一下吧！  
+[评分卡的开发过程](https://github.com/nanyoullm/nanyoullm.github.io/blob/master/src/%E4%BF%A1%E7%94%A8%E9%A3%8E%E9%99%A9%E8%AF%84%E5%88%86%E5%8D%A1%E7%A0%94%E7%A9%B6/%E8%AF%84%E5%88%86%E5%8D%A1%E7%9A%84%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B.ipynb)
 
 ## Others...
 ### 量化平台之初体验
